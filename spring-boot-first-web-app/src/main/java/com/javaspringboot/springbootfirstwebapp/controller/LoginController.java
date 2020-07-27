@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class LoginController {
 	@RequestMapping("/login")
-	@ResponseBody
 	public String loginMessage() {
-		String message = "Hello World";
-		return message;
+		return "login";
 	}
 	
 }
