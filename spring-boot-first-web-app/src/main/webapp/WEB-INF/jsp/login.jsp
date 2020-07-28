@@ -3,6 +3,11 @@
 		<title>First Web App</title>
 	</head>
 	<body>
-		<h1>JSP made by : ${name}</h1>
+		<form method="post">
+			Name : <input type="text" name="name"/>
+					
+			Password : <input type="password" name="Password"/>
+					<input type = "submit"/>		
+		</form>
 	</body>
-</html>
+</html> 
