@@ -5,7 +5,7 @@
 	<body>
 		<h1>Welcome! ${name} </h1>
 		<div>
-		<a href = "/list-todos">Click here </a> to manage Todo's
+		Here will be your list of todos : ${todos}
 		</div>
 	</body>
 </html> 
