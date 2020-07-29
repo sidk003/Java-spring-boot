@@ -5,7 +5,7 @@
 	<body>
 		<h1>Welcome! ${name} </h1>
 		<div>
-		Here will be your list of todos : ${todos}
+		Hi ${name} will be your list of todos : ${todos}
 		</div>
 	</body>
 </html> 
