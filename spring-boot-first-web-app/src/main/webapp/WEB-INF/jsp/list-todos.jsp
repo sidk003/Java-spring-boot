@@ -5,7 +5,11 @@
 	<body>
 		<h1>Welcome! ${name} </h1>
 		<div>
-		Hi ${name} will be your list of todos : ${todos}
+		Hi ${name},
+		<BR/> 
+		Here is a list of your todos : ${todos}
+		<BR/>
+		<a href = "/add-todos"> Add a Todo </a>
 		</div>
 	</body>
 </html> 
