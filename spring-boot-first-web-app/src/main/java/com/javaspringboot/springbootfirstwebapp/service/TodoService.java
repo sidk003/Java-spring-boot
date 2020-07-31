@@ -21,6 +21,7 @@ public class TodoService {
         todos.add(new Todo(3, "siddhantk0305", "Learn Hibernate", new Date(),
                 false));
     }
+    
 
     public List<Todo> retrieveTodos(String user) {
         List<Todo> filteredTodos = new ArrayList<Todo>();
