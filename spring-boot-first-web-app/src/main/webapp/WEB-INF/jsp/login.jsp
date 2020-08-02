@@ -1,12 +1,5 @@
-<html>
-	<head>
-		<title>First Web App</title>
-		<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"	rel="stylesheet">
-	</head>
-	<body>
-		<div class="page-header text-center">
-  			<h1>Login</h1>
-		</div>
+<%@ include file = "common/header.jspf"  %>
+<%@ include file = "common/navigation.jspf"  %>
 	
 	<div class = "container w-50" style=" margin-top : 50px ;background-color: #eee; padding-top : 15px; width:50%;">
 	
@@ -27,5 +20,4 @@
 	    <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</div>
 		
-	</body>
-</html> 
+<%@ include file = "common/footer.jspf"  %>
